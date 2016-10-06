@@ -5,6 +5,7 @@ class TeachersController < ApplicationController
 
   def create
     # Hint: params??
+    params[:id];
     render 'show'
   end
 end
